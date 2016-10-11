@@ -1,0 +1,79 @@
+* What is a paradigm
+
+By the definition of the course: "It is an approach for programming a
+computer based on a coherent set of principles or a mathematical theory."
+
+* Functional Programming
+** It is one of the simpliest paradigms to work with
+** It is the foundation of all the other paradigms
+Which means that other paradigms such as objective oriented are derived or 
+constructed from function paradigm.
+** It is a form of declarative programming
+** It is the introduction to a lot of other concepts such as
+*** Kernel language
+*** Invariants and recursion
+*** Higher-order programming
+*** Formal semantics
+
+* Declarative programming
+Just say what result you want instead of commands on how to get there; let
+the computer figure out how to get there. Keep in mind though that
+functional and logic programming are both kind of the declarative
+programming.
+
+** Declarative versus imperative: properties vs commands
+
+Declarative programming is the use of mathematics in programming
+(such as functions and relations)
+
+*** A computation calculates a function or a relation
+*** Use the power of mathematics to simplify programming such as
+**** Confluency
+**** Referential transparency
+** Also called "programming without state"
+*** Variable and data structures can't be updated
+**** We create an entity and keep it.
+*** Testing and verification is much simplified
+*** Declarative versus imperative: stateless vs stateful
+
+* About Oz itself
+** Braces surround all procedural and function calls
+As Oz is a multi paradigm language this is made this way to not conflict
+with other paradigms concetps. The parenthesis is already used for data
+structures.
+** "Variables" assigned cannot have their value changed
+*** This is because of a fundamental property of function paradigm
+ It is called single assignment, once you assigned you cannot change
+ it.
+*** Why is it?
+There is advantages of using this concept, for example, if we could
+assign a value more than once to a variable it could break a corret
+program.
+*** Although you can
+Redeclare an identifier using a declare statement, even if you use
+the same character you get different "environments" for each one, it
+can be confusing but one you get it, it turns out to be fine. You also
+can create a static scope with the local statement, which will enclose
+the time of the identifier to its scope.
+** Tips on the Oz syntax
+*** Syntax in Oz might be a bit confuse, but
+It has a motive to be that way, it encloses lots of programming
+paradigms, as such you would expect to have some differences from 
+those main stream programming languages. By being like this you have
+some advantages as pointed out by the instructor, when one is
+programming in Oz, one might be amused by how clearly those paradigms
+are, they are cleanly separated as to the point where one can tell
+you which paradigm is being used in some portion of source code.
+*** Oz identifiers always start with an uppercase letter
+*** Procedures and function calls are surrounded by braces
+*** Local identifiers are introduced by local ... end
+*** Variables in Oz are single assignment
+*** There is no implicit type conversion
+*** About numbers
+**** There are integers: completelly exact.
+**** Approximate numbers: floating point numbers.
+*** About operators
+**** div: Division with no remainder
+**** mod: The remainder
+**** *: Is a function on both floats and integers (overloaded operator)
+**** /: Is a float point function
