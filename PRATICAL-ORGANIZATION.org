@@ -1,0 +1,26 @@
+The project organization is described below for some context
+
+
+* Lessons
+** Six lessons; one lesson per week.
+* weekly exercises (50% of grade)
+** Conceptual exercises (multiple choice + fill the blank)
+** Programming exercises (corrected by CorrectOz grader)
+** One week deadline + two-week grace period
+** Infinite number of tries per exercise
+* Final exam (50% of grade)
+** Starts 7 of November, final due date is 21 of November
+** Two tries per exercise
+* Schedule
+** Sep. 26: Introduction
+** Oct. 3: Recursion, loops, and invariant programming
+** Oct. 10: Lists and pattern matching
+** Oct. 17: Higher-order programming and records
+** Oct. 24: Trees and computional complexity
+** Oct. 31: Correctness and semantics
+** Nov. 7: Final exam
+** Nov 21: Final exam due date (end of the course)
+* Software used in this course
+** Mozart (www.mozart2.org)
+*** Implements the Oz language
+*** Need to install Mozart to execute the exercises
