@@ -1,0 +1,14 @@
+* Recursion and loops
+Recursive calls acts like loops. A loop is a part of a program that repeats
+until some certain function is satisfied. But a recursive call is only a loop if
+it is a tail recursive call, this means that the stack has a constant size.
+* Invariant Programming
+To write functions using tail recursive calls we need to find and *accumulator*
+an argument in which we can build the result incrementally.
+An invariant, in a simple way, is a value which keeps the formula of the
+calculaion true as the calculation proceeds.
+** Accumulator
+We find the accumulator starting from an invariant using the principle of
+communicating vases. (One side goes down, the other goes up)
+** This is useful in all programming paradigms.
+** Loops are invariants
