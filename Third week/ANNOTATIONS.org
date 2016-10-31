@@ -1,0 +1,44 @@
+* Lists in Oz
+** A sequence of ordered data
+** Its value cannot be changed 
+** It doesn't necessarily need to store one single data type 
+***  That means they combine many other data types values together
+** A list is a recursive data type
+*** Recursion is used both for computations and data
+** A list is either an empty list or a pair of an element followed by a another list
+** Curly brackets are syntax sugar 
+As lists can be defined as:
+
+#+BEGIN_SRC oz
+L = 1 | 2 | 3 | nil
+L1 = [1 2 3]
+#+END_SRC
+
+From that code it can be asserted that L equals L1.
+** Head and tail of a list 
+To access a list's head you would just have to use the .1 function, similarly
+to access its tail you would just have to use the .2 function.
+Besides, when you append an element with the pipe operator remember of:
+
+#+BEGIN_SRC oz
+declare
+List = [1 2 3]
+
+% The pipe operator adds an element on the top of the list, therefore, the LHS
+% has to be an element and the RHS can be either an element of a list.
+
+K = 1 | List
+#+END_SRC
+* Formal notation
+** EBNF: <List T> ::= nil | T '|' <List T>
+
+* Tree and binary trees
+A tree is either a leaf node (can be nil) or a root node (that cannot be nil)
+and point to another trees (called subtrees)
+** Leaves have no subtrees
+** A binary tree is just a specific tree 
+*** All root nodes has exactly two subtrees 
+* Pattern matching
+
+** Supported by most symbolic programming languages
+
