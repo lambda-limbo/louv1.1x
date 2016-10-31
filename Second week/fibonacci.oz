@@ -16,8 +16,6 @@ fun {Fib N}
             Acc1
          elseif N < 0 then
             Acc2
-         elseif N == 1 then
-            {FibAux N-1 Acc2 (Acc2+Acc1)}
          else 
             {FibAux N-1 Acc2 (Acc2+Acc1)}
          end
@@ -26,5 +24,5 @@ fun {Fib N}
    end
 end
    
-{Browse {Fib 42}}
-{Browse {NaiveFib 32}}
+{Browse {Fib 100}}
+{Browse {NaiveFib 50}}
