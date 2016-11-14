@@ -39,6 +39,7 @@ and point to another trees (called subtrees)
 ** A binary tree is just a specific tree 
 *** All root nodes has exactly two subtrees 
 * Pattern matching
-
 ** Supported by most symbolic programming languages
-
+* List functions are tail recursive
+** A function can be translated to a procedure with one additional argument
+*** That is because of the unboud variables
