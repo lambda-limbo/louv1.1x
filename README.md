@@ -8,4 +8,4 @@ This repo is dedicated to solve [LouvainX's Louv1.1x!](https://courses.edx.org/c
 
 This cource uses the [Mozart Programming System](https://github.com/mozart/mozart2) to teach so you must be familiar with it's basics. This [Cheat Sheet](https://d37djvu3ytnwxt.cloudfront.net/assets/courseware/v1/14125172a9e78044a78fb554832a5c8d/asset-v1:LouvainX+Louv1.1x+3T2016+type@asset+block/main.pdf) may be helpful.
 
-Yes, I copied the README section from a friend's repository. It can be found [here](github.com/destructhub/computer-programs-paradigms) though.
+Yes, I copied the README section from a friend's repository. It can be found [there](https://www.github.com/DestructHub/computer-programs-paradigms) though.
