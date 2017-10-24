@@ -6,7 +6,7 @@ computer based on a coherent set of principles or a mathematical theory."
 * Functional Programming
 ** It is one of the simpliest paradigms to work with
 ** It is the foundation of all the other paradigms
-Which means that other paradigms such as objective oriented are derived or 
+Which means that other paradigms such as objective oriented are derived or
 constructed from function paradigm.
 ** It is a form of declarative programming
 ** It is the introduction to a lot of other concepts such as
@@ -52,13 +52,13 @@ program.
 *** Although you can
 Redeclare an identifier using a declare statement, even if you use
 the same character you get different "environments" for each one, it
-can be confusing but one you get it, it turns out to be fine. You also
+can be confusing but once you get it, it turns out to be fine. You also
 can create a static scope with the local statement, which will enclose
 the time of the identifier to its scope.
 ** Tips on the Oz syntax
 *** Syntax in Oz might be a bit confuse, but
 It has a motive to be that way, it encloses lots of programming
-paradigms, as such you would expect to have some differences from 
+paradigms, as such you would expect to have some differences from
 those main stream programming languages. By being like this you have
 some advantages as pointed out by the instructor, when one is
 programming in Oz, one might be amused by how clearly those paradigms
